@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department</title>
+    <style>
+        img{
+            padding: 3px;
+            width: 200px;
+            height: 250px;
+        }
+        p{
+            padding: 3px;
+            margin:0%
+        }
+        @media(min-width:360px){
+        .main{
+            display:flex;
+            justify-content: space-around;
+            flex-direction: row;
+
+        }
+    }
+    @media(min-width: 768px){
+        .main{
+            display:flex;
+            justify-content: space-around;
+            flex-direction: row;
+
+        }
+    }
+    @media (min-width: 360px){      
+    header{
+    background-color: rgb(17, 155, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+header{
+    background-image: url(./images/citlogo.png);
+    background-repeat: no-repeat;
+    background-size: 6%;
+
+}
+h1{
+    color:white;
+    padding-left: 90px;
+}
+
+.head{
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 16px;
+}
+.head:hover{
+    background-color: rgb(9, 79, 112);
+    color: black;
+}
+    }
+    @media (min-width: 768px){
+        header{
+    background-color:rgb(20, 56, 77);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+    }
+body{
+    background-color: rgb(100, 141, 182);
+}
+.fp{
+    color:rgb(213, 102, 102);
+    text-align: center;
+}
+.fpsm{
+    color:lightgray;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: lightgrey;
+    margin-top: 90px;
+}
+    </style>
+</head>
+<body>
+        <header>
+            <h1>MMMSU-College of Industrial Technology (CIT)</h1>
+            <nav>
+                <a class="head" href="about_us.html">ABOUT US</a>
+                <a class="head" href="departments.html">DEPARTMENTS</a>
+                <a class="head" href="index.html">HOME</a>
+            </nav>
+        </header>
+        <h1 class="fp">FACULTY PROFILE</h1>
+        <h1 class="fpsm">Food Processing & Service MGT (FPSM) Faculty</h1>
+    <div class="main">
+    <div>
+    <img src="./images/barolo.jpg" alt="barolo">
+    <a href="barolo_biodata.html"><h4>Mr. Ralph Kevin S. Barolo </h4></a>
+    <p>MA Education, BSIT - Food Tech</p>
+    <p> Program Coordinator, Paoay Campus</p>
+</div>
+
+<div>
+    <img src="./images/domingo.jpg" alt="domingo">
+    <a href="domingo_biodata.html"><h4>Prof. Fairie Anne A. Domingo</h4></a>
+    <p>MAEd - THE, BSHT</p>
+    <p>Coordinator, Extension</p>
+    <p>Staff, FPIC</p>
+</div>
+
+<div>
+    <img src="./images/mandac.jpg" alt="mandac">
+    <a href="mandac_biodata.html"><h4>Ms. Judelyn R. Mandac</h4></a>
+    <p>MAEd - TVE, BSIE - Food Tech</p>
+    <p>Program Coordinator, FPSM</p>
+</div>
+
+<div>
+    <img src="./images/pablo.jpg" alt="pablo">
+    <a href="pablo_biotdata.html"><h4>Dr. Teresita N. Pablo</h4></a>
+    <p>EdD - Educ Mgt, MAEd, BSHT</p>
+</div>
+
+</div>
+<footer>copyright ROSE ANNE R. JARA</footer>
+</body>
+</html>
